@@ -29,3 +29,7 @@ spring:
           uri: lb://blogging
           predicates:
             - Path=/blogging/**
+        - id: customersupport-service
+          uri: lb://customersupport-service
+          predicates:
+            - Path=/customersupports/**

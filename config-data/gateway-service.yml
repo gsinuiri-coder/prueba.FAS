@@ -25,7 +25,7 @@ spring:
           uri: lb://shopping-service
           predicates:
             - Path=/invoices/**
-        - id: collectivity-service
-          uri: lb://collectivity-service
+        - id: blogging
+          uri: lb://blogging
           predicates:
-            - Path=/collectivities/**
+            - Path=/blogging/**

@@ -28,11 +28,11 @@ spring:
         use_sql_comments: false
         format_sql: false
         
-# springdoc:
-#   api-docs:
-#     path: /blogging-api-docs
-#   swagger-ui: /blogging-api-docs-ui.html
-#     path:
+springdoc:
+  api-docs:
+    path: /blogging-api-docs
+  swagger-ui: 
+    path: /blogging-api-docs-ui.html
 
 logging:
   pattern:

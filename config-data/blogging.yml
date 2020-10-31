@@ -9,10 +9,10 @@ server:
 # http://localhost:8091/h2-console
 # Enabling H2 Console
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/blogging
-    username: root
-    password: giansm1992
+  # datasource:
+  #   url: jdbc:mysql://localhost:3306/blogging
+  #   username: root
+  #   password: giansm1992
 
   # ===============================
   # JPA / HIBERNATE

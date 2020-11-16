@@ -33,3 +33,7 @@ spring:
           uri: lb://customersupport-service
           predicates:
             - Path=/customersupports/**
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/orders/**

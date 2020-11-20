@@ -41,7 +41,7 @@ logging:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8099/eureka/
+      defaultZone: ${EUREKA_SERVER:http://localhost:8089/eureka}
       
 management:
   endpoints:
